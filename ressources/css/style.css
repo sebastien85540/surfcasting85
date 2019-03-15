@@ -1,0 +1,61 @@
+/*   DOCUMENT INFORMATION 
+    - Document: Le Surfcasting
+    - Version: 1.0.0
+    - Author: Sebastien REYNAUD
+    
+*/
+
+/* Colors 
+    - Default body text 
+    - H1:  
+    - H2:  
+    - H3:  
+    - H4
+    - H5
+    - H6
+    - Button
+    - Button: hover
+    - Border
+*/
+
+/* FONTS
+    - Default:  
+    - subtitle
+    - H1
+    - H2
+    - H3
+    - H4
+    - H5
+    - H6
+    - p:  
+*/
+/* CSS DIRECTORY 
+    1. =GLOBAL
+    2. =HEADER
+*/
+
+/* GLOBAL ===================
+==============================================*/
+h1{
+    
+}
+h2{
+    
+}
+h3{
+    
+}
+h4{
+    
+}
+p{
+    
+}
+
+
+/* HEADER ===================
+==============================================*/
+header{
+    background-image: url(../images/header.webp);
+    width: 100px;
+}
