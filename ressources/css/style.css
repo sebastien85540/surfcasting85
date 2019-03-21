@@ -154,13 +154,6 @@ section.article-membre{
 .icons{
     text-align: center;
 }
-.icons-1{
-    margin-left: 420px;
-}
-
-.icons-2{
-    margin-right: 420px;
-}
 
 /* EDIT ===================
 =================================================================================================================================================================================================*/
@@ -171,18 +164,32 @@ section.article-membre{
 }
 
 .form{
-    display: contents;
+    display: block;
+    text-align: left;
 }
 .adresse{
-    margin-left: 30px;
+    margin-left: 20px;
     
 }
-.ville{
-    padding-left: 226px;
-    
-}
+
 .btn-edit{
     margin-left: 500px;
+}
+.icons-2{
+    text-align: left;
+}
+textarea{
+    height: 100%;
+    width: 75%;
+}
+.prenom{
+    margin-right: 200px;
+}
+.cp{
+    margin-left: -10px;
+}
+input{
+    width: 65%;
 }
 
 /* INSCRIPTIONS ===================
@@ -190,3 +197,38 @@ section.article-membre{
 .inscription{
    padding-right: 400px; 
 }
+
+/* MEDIA QUERIES ===================
+=================================================================================================================================================================================================*/
+
+
+/* ADMIN MINI ===================
+=================================================================================================================================================================================================*/
+
+
+@media all and (max-width: 600px){
+    .navbar-expand .navbar-nav .nav-link{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    textarea{
+        height: 75%;
+    }
+    .icons{
+        text-align: center;
+    }
+    .prenom{
+         margin-left: 24px;
+        margin-right: 7px;
+
+    }
+    .ville{
+        margin-left: 55px;
+    }
+    input{
+        width: 50%;
+    }
+}
+  /* INSCRIPTIONS MINI ===================
+=================================================================================================================================================================================================*/  
+
